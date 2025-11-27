@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Книжковий Рай</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Книжковий Рай</h1>
+        <nav>
+            <ul>
+                <li><a href="#books">Книги</a></li>
+                <li><a href="#about">Про нас</a></li>
+                <li><a href="#contact">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="books">
+        <h2>Наші книги</h2>
+        <div class="book-list">
+            <div class="book">
+                <img src="book1.jpg" alt="Книга 1">
+                <h3>Назва Книги 1</h3>
+                <p>Короткий опис книги 1.</p>
+            </div>
+            <div class="book">
+                <img src="book2.jpg" alt="Книга 2">
+                <h3>Назва Книги 2</h3>
+                <p>Короткий опис книги 2.</p>
+            </div>
+            <div class="book">
+                <img src="book3.jpg" alt="Книга 3">
+                <h3>Назва Книги 3</h3>
+                <p>Короткий опис книги 3.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>Про нас</h2>
+        <p>«Книжковий Рай» – це місце, де кожен знайде книгу до душі. Ми пропонуємо найкращі світові та українські видання.</p>
+    </section>
+
+    <footer id="contact">
+        <p>Контакти: info@knyzhkovy-rai.ua | Телефон: +380 123 456 789</p>
+        <p>&copy; 2025 Книжковий Рай</p>
+    </footer>
+</body>
+</html>
